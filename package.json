@@ -1,22 +1,23 @@
 {
-  "name": "friend-finder",
+  "name": "anson-friend-finder",
   "version": "1.0.0",
-  "description": "An application to find the user's best match among their friends based upon survey responses.",
-  "main": "app.js",
+  "description": "Friend Finder App in nodejs and express.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/anson418/anson-friend-finder.git"
   },
-  "keywords": [],
-  "author": "John Oyarce",
+  "author": "Anson Ng",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/anson418/anson-friend-finder/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/anson418/anson-friend-finder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

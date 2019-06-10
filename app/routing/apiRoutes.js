@@ -11,7 +11,6 @@ module.exports = function(app, path) {
 		fs.readFile("app/data/friends.js", "utf8", function(err, data) {
 			if (err) throw err;
 			res.json(JSON.parse(data));
-			}
 		});
 	});
 
@@ -36,13 +35,6 @@ module.exports = function(app, path) {
 					bestMatch = f;
 		    	}
 		    }
-/*			
-		    // Add the new person to the friends array
-		    friends.push(req.body);
-
-		    // Write to file
-		    fs.writeFile("app/data/friends.js", JSON.stringify(friends));
-*/	
 	
 			// Return results
 			res.send(bestMatch);
