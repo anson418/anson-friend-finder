@@ -1,7 +1,7 @@
 {
-  "name": "anson-friend-finder",
+  "name": "oyarce-friend-finder",
   "version": "1.0.0",
-  "description": "Friend Finder App in nodejs and express.",
+  "description": "Friend Finder App in nodeJS and express.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anson418/anson-friend-finder.git"
+    "url": "git+https://github.com/c4424/oyarce-friend-finder.git"
   },
-  "author": "Anson Ng",
+  "author": "John Oyarce",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anson418/anson-friend-finder/issues"
+    "url": "https://github.com/c4424/oyarce-friend-finder/issues"
   },
-  "homepage": "https://github.com/anson418/anson-friend-finder#readme",
+  "homepage": "https://github.com/c4424/oyarce-friend-finder#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
